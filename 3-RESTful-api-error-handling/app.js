@@ -1,6 +1,10 @@
 /* eslint-disable */
+
+// NPM package: https://www.npmjs.com/package/express
 const express = require('express');
 const app = express();
+
+// NPM package: https://www.npmjs.com/package/morgan
 const morgan = require('morgan');
 
 const productRoutes = require('./api/routes/products');
